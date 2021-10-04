@@ -12,14 +12,16 @@ const useStyles = makeStyles({
         '& > * ': {
             padding: '0 5px 5px 5px'
         },
-
     }
     ,
     image: {
         height: 150,
         width: '100%',
         objectFit: 'cover',
-        borderRadius: '10px 10px 0 0'
+        borderRadius: '10px 10px 0 0',
+        '&:hover': {
+            height: 200,
+        }
     },
     text: {
         color: '#878787',
@@ -32,7 +34,7 @@ const useStyles = makeStyles({
     detail: {
         fontSize: 14,
         wordBreak: 'break-word'
-    }
+    },
 })
 const Post = () => {
     const classes = useStyles();
