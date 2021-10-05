@@ -1,5 +1,6 @@
 import {Box, makeStyles, Typography} from "@material-ui/core";
 import url from "../../IMG/pexels-hasan-albari-1229861.jpg"
+
 const useStyles = makeStyles({
     container: {
         height: 350,
